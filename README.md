@@ -36,5 +36,8 @@ Esse repositório trata sobre conceitos básicos de React a fim de revisar tópi
   Aborda como o React lida com atualizações de vários estados e como ele faz a atualização desses estados. Aprofunda na atualização do hook useState.
 
   Algumas palavras chave: *Lote* | *Garçom* | *Fila* | *useState*
-  
-  - **Hook useState - Avançado**
+
+- **Engenharia reversa: Como funciona a Virtual DOM**
+  Utiliza como base o vídeo [Dev Soutinho](https://www.youtube.com/watch?v=5MzOCxSWrrc&t=629s&ab_channel=MarioSouto-DevSoutinho) para recriar o sistema de virtual DOM que o React utliza.
+
+  Algumas palavras chave: *---*
