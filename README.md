@@ -1,6 +1,6 @@
 # Avançando e revisando tópicos do React.
 
-Esse repositório trata sobre conceitos básicos de React a fim de revisar tópicos fundamentais porém com uma visão avançada do React para preencher lacunas de quando estudei pela primeira vez. Além disso, há conteúdos avançados, como design patterns, otimização de renderizações, estruturação correta de componentes e afins. Você pode ver com mais detalhes os tópicos abordados na seção abaixo.
+Esse repositório trata sobre conceitos básicos de React a fim de revisar tópicos fundamentais porém com uma visão avançada do React para preencher lacunas de quando estudei pela primeira vez. Além disso, há conteúdos avançados, como design patterns, otimização de renderizações, estruturação correta de componentes e afins. Você pode ver com mais detalhes nos tópicos abordados na seção abaixo.
 
 *Obs:* O conteúdo desse repositório foi baseado na documentação interativa do mesmo [React Dev](https://react.dev/) e nos conteúdos do canal [Dev Junior Alves](https://www.youtube.com/@devjunioralves) e em demais conteúdos da internet.
 
@@ -32,7 +32,7 @@ Esse repositório trata sobre conceitos básicos de React a fim de revisar tópi
 
   Algumas palavras chaves: *Aciona* | *Renderiza* | *Confirma* | *Fibre* | *Reconciliation*
 
-  - **Enfileirando uma série de atualizações no React**
+- **Enfileirando uma série de atualizações no React**
   Aborda como o React lida com atualizações de vários estados e como ele faz a atualização desses estados. Aprofunda na atualização do hook useState.
 
   Algumas palavras chave: *Lote* | *Garçom* | *Fila* | *useState*
@@ -41,3 +41,8 @@ Esse repositório trata sobre conceitos básicos de React a fim de revisar tópi
   Utiliza como base o vídeo [Dev Soutinho](https://www.youtube.com/watch?v=5MzOCxSWrrc&t=629s&ab_channel=MarioSouto-DevSoutinho) para recriar o sistema de virtual DOM que o React utliza.
 
   Algumas palavras chave: *---*
+
+- **Desafio: Como o React sabe qual valor retornar para cada estado**
+  Baseado na documentação do React, cria um script que utiliza a mesma lógica que o React para retornar o valor de estados. Também aborda como o React trabalha com o agrupamento de funções que atualiza o mesmo estado, colocando esses valores em uma lista e a precorrendo antes da proxima renderização.
+
+  Algumas palavras chave: *Enfileiramento* | *Estado*
